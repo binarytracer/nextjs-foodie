@@ -10,7 +10,11 @@ export default function MealItem(props) {
     <article className={classes.meal}>
       <header>
         <div className={classes.image}>
-          <Image src={image} alt={title} fill />
+          <Image
+            src={`https://rod-nextjs-foodie-images-v2.s3.ap-southeast-2.amazonaws.com/${image}`}
+            alt={title}
+            fill
+          />
         </div>
         <div className={classes.headerText}>
           <h2>{title}</h2>

@@ -18,7 +18,11 @@ export default function MealDetailsPage(props) {
     <>
       <header className={classes.header}>
         <div className={classes.image}>
-          <Image fill src={meal.image} alt={meal.title} />
+          <Image
+            fill
+            src={`https://rod-nextjs-foodie-images-v2.s3.ap-southeast-2.amazonaws.com/${meal.image}`}
+            alt={meal.title}
+          />
         </div>
         <div className={classes.headerText}>
           <h1>{meal.title}</h1>

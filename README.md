@@ -7,3 +7,12 @@
 - Custom Image Picker
 - Directives ( Client and Server )
 - Server action
+- Image Uploading
+- XSS
+- Slug ( with slugify npm )
+- AWS ( S3 )
+
+### Deployment and Production Build
+
+> npm run build
+> npm start
