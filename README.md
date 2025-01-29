@@ -11,6 +11,9 @@
 - XSS
 - Slug ( with slugify npm )
 - AWS ( S3 )
+- Webpage metadata used for SEO
+- Dynamic route
+- Reserve filenames
 
 ### Deployment and Production Build
 
